@@ -1,0 +1,39 @@
+{
+  "name": "akamai-time-reference",
+  "version": "1.0.0",
+  "description": "Get a time reference using Akamai's platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover _mocha",
+    "lint": "eslint index.js test/index.js",
+    "prepublish": "npm run lint && npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jucrouzet/akamai-time-reference.git"
+  },
+  "keywords": [
+    "time",
+    "reference",
+    "sync",
+    "date"
+  ],
+  "author": "Julien CROUZET <contact@juliencrouzet.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jucrouzet/akamai-time-reference/issues"
+  },
+  "homepage": "https://github.com/jucrouzet/akamai-time-reference#readme",
+  "dependencies": {
+    "bluebird": "2.10.0",
+    "request": "2.61.0"
+  },
+  "devDependencies": {
+    "chai": "3.2.0",
+    "chai-as-promised": "5.1.0",
+    "eslint": "1.4.1",
+    "istanbul": "0.3.20",
+    "mocha": "2.3.2",
+    "nock": "2.10.0"
+  }
+}
