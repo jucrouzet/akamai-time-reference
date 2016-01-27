@@ -1,6 +1,6 @@
 {
   "name": "akamai-time-reference",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get a time reference using Akamai's platform",
   "main": "index.js",
   "scripts": {
@@ -25,8 +25,8 @@
   },
   "homepage": "https://github.com/jucrouzet/akamai-time-reference#readme",
   "dependencies": {
-    "bluebird": "2.10.0",
-    "request": "2.61.0"
+    "bluebird": "3.1.5",
+    "request": "2.67.0"
   },
   "devDependencies": {
     "chai": "3.2.0",
