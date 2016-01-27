@@ -1,7 +1,9 @@
-akamai-time-reference
+[![Build Status](https://travis-ci.org/jucrouzet/akamai-time-reference.svg?branch=master)](https://travis-ci.org/jucrouzet/akamai-time-reference) [![npm version](https://badge.fury.io/js/akamai-time-reference.svg)](https://badge.fury.io/js/akamai-time-reference) [![Dependency Status](https://david-dm.org/jucrouzet/akamai-time-reference.svg)](https://david-dm.org/jucrouzet/akamai-time-reference)
+
+# akamai-time-reference
 -------
 
-# What is this ?
+## What is this ?
 
 `akamai-time-reference` is a Node.js package to get the exact current time using
 [Akamai's Time Reference service](https://developer.akamai.com/stuff/Akamai_Time_Reference/AkamaiTimeReference.html).
@@ -11,13 +13,13 @@ It has only two depedencies :
 - [bluebird](https://github.com/petkaantonov/bluebird)
 - [request](https://github.com/request/request)
 
-# What it isn't
+## What it isn't
 
 - An [NTP](https://en.wikipedia.org/wiki/Network_Time_Protocol) client, see [ntp-client](https://www.npmjs.com/package/ntp-client)
 - More generally, a solution to synchronize your local clock
 - A banana
 
-# How it works ?
+## How it works ?
 
 ```js
 const timeRef = require('akamai-time-reference');
@@ -46,7 +48,7 @@ timeRef.now(true);
 // >> HTTP request
 ```
 
-# Options
+## Options
 
 You can change some options like using `setOptions` by passing it an object with
 one/some of theses properties :
