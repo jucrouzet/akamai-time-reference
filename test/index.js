@@ -20,6 +20,7 @@ describe('akamai-time-reference', function() {
 
   describe('now()', function() {
     it('should return a resolved Promise', function(done) {
+	expect(true).to.be.false();	  
       var promise = timeRef.now();
 
       expect(promise).to.be.an.instanceof(Promise);
