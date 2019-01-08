@@ -6,7 +6,7 @@
 ## What is this ?
 
 `akamai-time-reference` is a Node.js package to get the exact current time using
-[Akamai's Time Reference service](https://developer.akamai.com/stuff/Akamai_Time_Reference/AkamaiTimeReference.html).
+[Akamai's Time Reference service](https://developer.akamai.com/legacy/learn/Akamai_Time_Reference/AkamaiTimeReference.html).
 
 It has only two depedencies :
 
